@@ -1,0 +1,9 @@
+######################
+GIT COMMANDS         #
+######################
+
+working directory -> staging area -> local repository -> remote repository
+
+git init {name}		create new git repository
+git status		shows status of repository
+git add {filename}	adds file to staging area
