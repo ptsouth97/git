@@ -14,3 +14,4 @@ git commit -a           add modified files to staging area and then commit
 git commit -am		combines previous two commands
 git log			displays log of all commits for local repo
 git show		shows changes in last commit
+git reset HEAD {file}	resets changes from staging area
