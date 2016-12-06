@@ -25,3 +25,8 @@ git config --global alias.hist "log --oneline --graph --decorate --all"	Alias (s
 git mv {from} {to}	renames file from-to then commit
 git rm {file}           removes file then commit
 
+git add -u              updates deletions in working directory
+git add -A		updates additions and deletions (i.e., ALL)
+
+{edior} .gitignore	open file to specify where to ignore changes to these files (i.e, do not add to .git)
+*.log			ignore changes to all .log files
