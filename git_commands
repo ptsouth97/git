@@ -4,6 +4,13 @@ GIT COMMANDS         #
 
 working directory -> staging area -> local repository -> remote repository
 
-git init {name}		create new git repository
+git init {name}		create new git repository with new named folder
+git init .		create new git repository in current folder
 git status		shows status of repository
 git add {filename}	adds file to staging area
+git add .		adds all files in current folder
+git commit -m {msg}	commits file
+git commit -a           add modified files to staging area and then commit
+git commit -am		combines previous two commands
+git log			displays log of all commits for local repo
+git show		shows changes in last commit
