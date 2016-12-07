@@ -41,3 +41,21 @@ BRANCHES
 
 git branch						shows branches;  * denotes current branch
 git checkout -b	{new branch}	creates new branch and switches to that branch
+git diff updates master			shows differences between branches
+git checkout master				switch back to master branch
+git hist						shows HEAD back on master branch
+git merge updates				merges updates into master branch
+git hist						HEAD is updated to show merge of branches
+git branch -d updates			deletes updates branch (just the label, not the history)
+
+CONFLICTS
+
+git mergetool
+
+TAGS
+
+git tag {name}			make a milestone marker in log
+git tag --list			show tags
+git tag -d {name}		delete tag
+git tag -a {name} -m "	make annotated tag
+git show {tagname}		shows more tag info
