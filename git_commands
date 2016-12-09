@@ -59,3 +59,29 @@ git tag --list			show tags
 git tag -d {name}		delete tag
 git tag -a {name} -m "	make annotated tag
 git show {tagname}		shows more tag info
+
+STASHING
+
+git stash				stashes changes to allow you to work on something else
+git stash list			shows stash
+git stash pop   		applies last stash
+
+TIME TRAVEL
+
+git reset {id} --soft	1.) soft reset=change where HEAD points, 2.) hard reset=removes items in staging areas, 3.) mixed reset
+git reflog				shows all changes
+
+GITHUB
+
+git remote add {name} {url}			creates remote repository
+git remote -v						displays remote repositories
+git push -u {name} {branch} --tags	push the branch with tags
+
+SSH
+
+mkdir .ssh
+cd .ssh/
+ssh-keygen -t rsa -C "ptsouth97@gmail.com"
+copy contents of id_rsa.pub file
+paste in github -- settings -- new ssh
+ssh -T git@github.com
