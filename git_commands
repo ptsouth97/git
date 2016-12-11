@@ -4,24 +4,24 @@
 
 working directory -> staging area -> local repository -> remote repository
 
-git help {command} 										get help for a command
-git config              								make changes to git configuration file
-git init {name}											create new git repository with new named folder
-git init .												create new git repository in current folder
-git status												shows status of repository
-git add {filename}										adds file to staging area
-git add .												adds all files in current folder
-git commit -m {msg}										commits file
-git commit -a											add modified files to staging area and then commit
-git commit -am											combines previous two commands
-git log													displays log of all commits for local repo
-git show												shows changes in last commit
-git reset HEAD {file}									resets changes from staging area, but changes still in file
-git checkout -- {file}									rolls back changes in file
+git help {command}									get help for a command
+git config											make changes to git configuration file
+git init {name}										create new git repository with new named folder
+git init .											create new git repository in current folder
+git status											shows status of repository
+git add {filename}									adds file to staging area
+git add .											adds all files in current folder
+git commit -m {msg}									commits file
+git commit -a										add modified files to staging area and then commit
+git commit -am										combines previous two commands
+git log												displays log of all commits for local repo
+git show											shows changes in last commit
+git reset HEAD {file}								resets changes from staging area, but changes still in file
+git checkout -- {file}								rolls back changes in file
 
-git log --oneline --graph --decorate --all				Displays log user friendly
+git log --oneline --graph --decorate --all			Displays log user friendly
 git config --global alias.hist "log --oneline \n
-	--graph --decorate --all"							Alias (shortens a long command)
+	--graph --decorate --all"						Alias (shortens a long command)
 
 git mv {from} {to}										renames file from-to then commit
 git rm {file}											removes file then commit
