@@ -91,3 +91,4 @@ UPDATE REPOSITORY AND REMOTE REFERENCES
 
 git remote set-url origin git@github.com:ptsouth97/vim.git		changes url that git is pointing to
 git remote show origin											shows more remote information
+  
